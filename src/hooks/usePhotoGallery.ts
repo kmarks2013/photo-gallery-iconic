@@ -8,5 +8,7 @@ import { CameraResultType, CameraSource, CameraPhoto, Capacitor, FilesystemDirec
 export const usePhotoGallery = () => {
     const { getPhoto } = useCamera()
 
- 
+    const takePhoto = async () => {
+    
+    }
 }
