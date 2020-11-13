@@ -20,6 +20,9 @@ const Tab2: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <ExploreContainer name="Tab 2 page" />
+        <IonFab vertical='bottom' horizontal='center' slot='fixed'>
+
+        </IonFab>
       </IonContent>
     </IonPage>
   );
