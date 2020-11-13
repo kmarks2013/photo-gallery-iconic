@@ -6,5 +6,7 @@ import { isPlatform } from '@ionic/react'
 import { CameraResultType, CameraSource, CameraPhoto, Capacitor, FilesystemDirectory } from "@capacitor/core"
 
 export const usePhotoGallery = () => {
+    const { getPhoto } = useCamera()
 
+ 
 }
