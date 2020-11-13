@@ -15,8 +15,11 @@ import {
 import { camera, trash, close } from 'ionicons/icons'
 import ExploreContainer from '../components/ExploreContainer';
 import './Tab2.css';
+import { usePhotoGallery } from '../hooks/usePhotoGallery';
 
 const Tab2: React.FC = () => {
+  const { takePhoto } = usePhotoGallery()
+
   return (
     <IonPage>
       <IonHeader>
