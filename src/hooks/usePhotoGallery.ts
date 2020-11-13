@@ -9,6 +9,11 @@ export const usePhotoGallery = () => {
     const { getPhoto } = useCamera()
 
     const takePhoto = async () => {
-    
+        const cameraPhoto = await getPhoto({
+            resultType: CameraResultType.Uri,
+            source: CameraSource.Camera,
+            quality: 100
+        })
     }
+
 }
