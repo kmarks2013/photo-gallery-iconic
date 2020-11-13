@@ -16,4 +16,7 @@ export const usePhotoGallery = () => {
         })
     }
 
+    return {
+        takePhoto
+    }
 }
