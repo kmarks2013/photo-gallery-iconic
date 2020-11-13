@@ -21,7 +21,9 @@ const Tab2: React.FC = () => {
         </IonHeader>
         <ExploreContainer name="Tab 2 page" />
         <IonFab vertical='bottom' horizontal='center' slot='fixed'>
-
+          <IonFabButton onClick={ () => console.log('click')}>
+              <IonIcon icon={camera}/>
+          </IonFabButton>
         </IonFab>
       </IonContent>
     </IonPage>
